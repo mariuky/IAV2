@@ -156,6 +156,10 @@ Prefab:
       propertyPath: numEnemies
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11401692, guid: 1f54754c41c64a04aac6945bc71af6ca, type: 2}
+      propertyPath: ForPlanner
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f54754c41c64a04aac6945bc71af6ca, type: 2}
   m_IsPrefabParent: 0
@@ -187,9 +191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1553013536}
-  Planner: 0
+  Planner: 1
   seed: 2016
-  numEnemies: 0
+  numEnemies: 1
 --- !u!4 &601244032
 Transform:
   m_ObjectHideFlags: 0
@@ -237,8 +241,7 @@ Transform:
 --- !u!114 &1064250261
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114919295397911956, guid: 6d072085023a9cc469645640b49ab789,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1064250259}
   m_Enabled: 1

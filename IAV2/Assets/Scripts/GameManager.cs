@@ -36,6 +36,7 @@ namespace Assets.Scripts
 
         public void Start()
         {
+            InitGame();
             var character= GameObject.Find("Character").GetComponent<CharacterBehaviour>();
             character.BoardManager= BoardManager;
             character.SetCurrentTarget(BoardManager.boardInfo.Exit);
